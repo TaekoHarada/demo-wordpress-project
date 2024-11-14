@@ -1,0 +1,23 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+
+body {
+  font-family: Arial, sans-serif;
+  color: $primary-color;
+  background-color: #f9f9f9;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  li {
+    margin-right: 20px;
+    a {
+      text-decoration: none;
+      color: $primary-color;
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+}
